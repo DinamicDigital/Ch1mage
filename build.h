@@ -2,3 +2,4 @@
 
 #include "src/main.c"
 
+#include "src/platform/platform_win32.c"

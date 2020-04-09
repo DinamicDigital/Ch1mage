@@ -4,6 +4,7 @@ A simple image viewer.
 
 Supports:
 ~~PPM~~
-~~JPG~~
 ~~TGA~~
+~~BMP~~
+~~JPG~~
 ~~PNG~~
