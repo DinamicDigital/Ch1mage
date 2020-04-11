@@ -29,10 +29,7 @@ void create_window(HINSTANCE hInstance, INT nCmdShow)
 
 	if (window == 0)
 	{
-		return -1;
-	}
-	
-	ShowWindow(window, nCmdShow);
+		// TODO: Handle Errors.	ShowWindow(window, nCmdShow);
 }
 
 void loop()

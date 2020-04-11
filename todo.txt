@@ -1,0 +1,24 @@
+
+// Platform stuff
+
+Move to abstracting win32 completely and just use our own custom platform abstraction for easy(er) cross-platform.
+^ This means i need to learn how to do things on linux, if we decide to support it.
+
+// IMAGE STUFF
+
+// General Image loading
+Load Image from disk into memory
+Convert the loadded image type into our own format RBGA32 (so the image renderer can universally draw any image type.)
+
+
+// Load a PPM and display it.
+1. Load PPM data into memory.
+2. convert PPM to RBGA32 format
+3. pass data to renderer
+
+// Renderer
+1. draw RGBA32 data (using BitBlt maybe?)
+
+
+// Things to think about:
+how can we support extra data that some image formats have. (Author name, website, ect)
